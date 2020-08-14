@@ -17,6 +17,7 @@ function memo() {
           </div>
           <div class="post-content">
           ${item.content}
+          </div>
         </div>`;
       list.insertAdjacentHTML("afterend", HTML);
 
